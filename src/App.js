@@ -1,7 +1,12 @@
 import React from "react";
+import Restaurant from "./components/menu/Restaurant";
 
 const App = () => {
-  return <div>Hello App</div>;
+  return (
+    <main>
+      <Restaurant />
+    </main>
+  );
 };
 
 export default App;
